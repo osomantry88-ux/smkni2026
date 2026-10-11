@@ -1,0 +1,14 @@
+[functions.setup-admin]
+verify_jwt = false
+
+[functions.admin-users]
+verify_jwt = true
+
+[functions.bulk-import-accounts]
+verify_jwt = true
+
+[functions.whatsapp-test]
+verify_jwt = true
+
+[functions.iot-rfid]
+verify_jwt = false

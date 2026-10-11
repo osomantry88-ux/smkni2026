@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media print {
+  body { background: white !important; }
+  .print\:hidden { display: none !important; }
+  .print\:block { display: block !important; }
+  .print\:table { display: table !important; }
+  main { padding: 0 !important; max-width: none !important; }
+  aside, header { display: none !important; }
+  .lg\:pl-64, .lg\:pl-20 { padding-left: 0 !important; }
+  table { font-size: 11px !important; width: 100% !important; border-collapse: collapse !important; }
+  th, td { border: 1px solid #333 !important; padding: 4px 8px !important; color: black !important; }
+  th { background: #f0f0f0 !important; font-weight: bold !important; }
+  tr:nth-child(even) { background: #fafafa !important; }
+  @page { margin: 1.5cm; size: A4; }
+}
